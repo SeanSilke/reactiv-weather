@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 30px;
+}
+
+
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+.modal {
+  position: fixed;
+  top:0;
+  left: 0;
+  display: flex;
+  background-color:rgba(51, 51, 51, 0.9);
+  color: #ffffff;
+  opacity: .999;
+  z-index: 10;
+  transition: 3s;
+  display: flex;
+}
+
+.modal.hide {
+  top: 150%;
+  opacity: 0;
+}
+
+.modal h1 {
+  opacity: 1;
+  padding: 0 20px;
+  margin: auto;
+}
+
+button {
+  font-size: 15px;
+}
+
+button:not(:first-of-type) {
+  margin-left: 20px;
+}
