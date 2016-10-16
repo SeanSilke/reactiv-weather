@@ -86,7 +86,6 @@ var TemperatureApp =  React.createClass ({
                    />
       </div>
     )
-
   }
 })
 
@@ -118,8 +117,6 @@ var Button = React.createClass ({
     )
   }
 })
-
-
 
 ReactDOM.render(
   <TemperatureApp url="/api/comments" />,
